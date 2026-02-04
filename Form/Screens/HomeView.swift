@@ -19,6 +19,10 @@ struct HomeView: View {
                         .font(AppTypography.title)
                         .foregroundColor(AppColors.textPrimary)
 
+                    Text("Testing commit flow")
+                        .font(AppTypography.caption)
+                        .foregroundColor(AppColors.textSecondary)
+
                     NavigationLink {
                         StreakDetailView(monthDate: monthDate, activeDays: activeDays)
                     } label: {
